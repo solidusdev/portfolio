@@ -1,0 +1,21 @@
+#navbar {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+
+    ul {
+        li {
+            display: inline-block;
+            margin-top: 1.5rem;
+
+            a {
+                cursor: pointer;
+                font-size: 1.2rem;
+                font-family: "ProximaNova-Reg";
+                text-decoration: none;
+                margin: 0 1.8rem;
+                color: black;
+            }
+        }
+    }
+}

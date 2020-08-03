@@ -1,0 +1,175 @@
+// Media Queries
+
+$breakpoint1: "(max-width: 950px)";
+$breakpoint2: "(max-width: 800px)";
+$breakpoint3: "(max-width: 700px)";
+$phone: "(max-width: 615px)";
+
+@media #{$breakpoint1} {
+    main {
+        #home {
+            .horizontal-center {
+                
+                .vertical-center {
+                    justify-content: flex-start;
+                    
+                    h1 {
+                        font-size: 5.5rem;
+                        margin-top: 7rem;
+                        margin-left: 6rem;
+                    }
+
+                    p {
+                        font-size: 1.1rem;
+                        margin-left: 6.3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$breakpoint2} {
+    main {
+        #projects {
+            h1 {
+                font-size: 4.7rem;
+                margin-left: 4rem;
+            }
+        }
+    }
+}
+
+@media #{$breakpoint3} {
+    main {
+        #home {
+            .horizontal-center {
+                
+                .vertical-center {
+
+                    h1 {
+                        font-size: 4.8rem;
+                        margin-left: 2rem;
+                    }
+
+                    p {
+                        margin-left: 2.3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$phone} {
+    
+    main {
+        
+        #home {
+            background-position: 73.4% 73.4%;
+
+            .horizontal-center {
+
+                .vertical-center  {
+                    justify-content: flex-start;
+                    
+                    h1 {
+                        font-size: 4.8rem;
+                        margin-left: 1.5rem;
+                        margin-top: 8rem;
+                        
+                        &:nth-child(2) {
+                            margin-top: -1rem;
+                        }
+                    }
+
+                    p {
+                        margin-left: 1.8rem;
+                        line-height: 1.4;
+                        max-width: 60%;
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+
+            #navbar {
+                ul {
+                    li {
+                        a {
+                            font-size: 1.25rem;
+                            margin: 0 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        #experience {
+            
+            h1 {
+                font-size: 3.4rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+                max-width: 80%;
+                margin: 0 auto;
+                margin-top: 0.8rem;
+            }
+
+            .vertical-timeline {
+                margin-top: 3rem;
+
+                .vertical-timeline-element {
+                    
+                    .vertical-timeline-element-content {
+                        
+                        .work-item-container {
+
+                            h3 {
+                                font-size: 1.4rem;
+                            }
+                            
+                            p {
+                                font-size: 1.05rem;
+                            }
+                        }
+
+                        .vertical-timeline-element-date {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+        #projects {
+
+            h1 {
+                font-size: 4.3rem;
+                margin-left: 0.7rem;
+            }
+
+            .BrainhubCarousel__container {
+
+                margin-top: 1rem;
+
+                .BrainhubCarousel {
+
+                    .BrainhubCarousel__trackContainer {
+
+                        ul {
+                            li {
+                                padding: 0 0.7rem;
+                                
+                                .carousel-item {
+                                    padding-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+#experience {
+    background-color: black;
+    overflow: hidden;
+
+    h1 {
+        color: white;
+        text-align: center;
+        padding-top: 2rem;
+        font-size: 5.4rem;
+        font-family: "ProximaNova-Bold";
+    }
+
+    h2 {
+        font-family: "ProximaNova-Reg";
+        color: #a0a0a0;
+        font-size: 1.25rem;
+        text-align: center;
+        margin-top: 0.75rem;
+    }
+
+    .vertical-timeline {
+        margin-top: 3.5rem;
+        
+        .vertical-timeline-element {
+
+            .vertical-timeline-element-content {
+
+                border-radius: 18px;
+                
+                .work-item-container {
+    
+                    h3 {
+                        font-family: "ProximaNova-Sbold";
+                        font-size: 1.4rem;
+                        margin-top: 0.7rem;
+                    }
+    
+                    p {
+                        font-family: "ProximaNova-Reg";
+                        color: #6e6d6d;
+                        margin: 0.5rem 0;
+                    }
+                }
+
+                .vertical-timeline-element-date {
+                    font-family: "ProximaNova-Sbold";
+                    color: white;
+                    opacity: 1;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}

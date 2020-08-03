@@ -1,0 +1,26 @@
+#footer {
+    margin: auto auto 0;
+    width: 100%;
+    padding: 1rem 0 2.5rem 0;
+    text-align: center;
+    margin-top: 3.3rem;
+
+    ul {
+        li {
+            display: inline-block;
+            padding: 0 0.7rem 0;
+
+            a {
+                img {
+                    max-width: 37px;
+                }
+            }
+        }
+    }
+
+    h2 {
+        font-family: "ProximaNova-Reg";
+        font-size: 1rem;
+        margin-top: 0.8rem;
+    }
+}
