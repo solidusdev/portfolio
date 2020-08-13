@@ -1,0 +1,66 @@
+#sidebar {
+    background: linear-gradient(to bottom, #8a2387, #e94057, #f27121);
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    transition: 0.5s;
+    overflow-x: hidden;
+
+    .sidebar-horizontal-center {
+        display: flex;
+        justify-content: center;
+        height: inherit;
+
+        .sidebar-vertical-center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            ul {
+                li {
+                    list-style-type: none;
+                    padding-top: 1.3rem;
+
+                    a {
+                        color: white;
+                        font-family: "ProximaNova-Reg";
+                        font-size: 1.8rem;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .sidebar-footer {
+        margin: auto auto 0 ;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 2.5rem;
+        padding-top: 2rem;
+        color: white;
+
+        ul {
+            li {
+                padding: 0.5rem;
+                display: inline-block;
+
+                a {
+                    img {
+                        max-width: 35px;
+                    }
+                }
+            }
+        }
+
+        p {
+            font-family: "ProximaNova-Bold";
+            font-size: 0.9rem;
+        }
+    }
+}

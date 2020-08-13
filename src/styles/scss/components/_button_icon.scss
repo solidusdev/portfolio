@@ -1,0 +1,41 @@
+#button-icon {
+    padding: 10px 26px 16px 0;
+}
+
+#button-icon span, #button-icon span:before, #button-icon span:after {
+    cursor: pointer;
+    height: 3.5px;
+    width: 26px;
+    background: black;
+    position: absolute;
+    display: block;
+    content: '';
+}
+
+#button-icon span:before {
+    top: -10px;
+}
+
+#button-icon span:after {
+    bottom: -10px;
+}
+
+#button-icon span, #button-icon span:before, #button-icon span:after {
+    transition: all 240ms ease-in-out;
+}
+
+#button-icon.active span {
+    background-color: transparent;
+}
+
+#button-icon.active span:before, #button-icon.active span:after {
+    top: 0;
+}
+
+#button-icon.active span:before {
+    transform: rotate(45deg);
+}
+
+#button-icon.active span:after {
+    transform: rotate(-45deg);
+}

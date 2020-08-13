@@ -1,0 +1,24 @@
+#mobile-button-container {
+    cursor: pointer;
+    display: none;
+
+    .mobile-button {
+        position: fixed;
+        top: 3%;
+        right: 7%;
+        z-index: 999;
+        background-color: white;
+        border: 2px black solid;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+
+        .vertical-center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
